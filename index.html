@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Campus Café</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Campus Café – Student friendly café menu">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.webp">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+
+<header class="hero-section">
+  <nav>
+    <div class="logo">Campus Café</div>
+    <ul>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="cart-nav">
+        <button id="cart-toggle">
+          <i class="fal fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="hero-text">
+    <h1>Campus Café & Bistro</h1>
+    <p>Affordable food & beverages for students</p>
+  </div>
+</header>
+
+<main>
+<section id="menu" class="menu-section">
+<h2>Our Menu</h2>
+
+<div class="menu-filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="coffee">Coffee</button>
+  <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+  <button class="filter-btn" data-filter="restaurant">Meals</button>
+</div>
+
+<div class="menu-grid">
+
+<!-- COFFEE -->
+<div class="menu-item" data-category="coffee">
+  <img src="assets/double-espresso.webp">
+  <h3>Campus Espresso</h3>
+  <p>Strong student-favourite espresso shot.</p>
+  <span class="price">₹140</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="coffee">
+  <img src="assets/caramel-latte.webp">
+  <h3>Caramel Latte</h3>
+  <p>Sweet & creamy caramel coffee.</p>
+  <span class="price">₹200</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="coffee">
+  <img src="assets/cappuccino.webp">
+  <h3>Student Cappuccino</h3>
+  <p>Balanced espresso with foam.</p>
+  <span class="price">₹180</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<!-- SNACKS -->
+<div class="menu-item" data-category="coffee">
+  <img src="assets/croissant.webp">
+  <h3>Butter Croissant</h3>
+  <p>Flaky & fresh bakery snack.</p>
+  <span class="price">₹120</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="coffee">
+  <img src="assets/chocolate-chip-cookie.webp">
+  <h3>Choco Chip Cookie</h3>
+  <p>Soft baked cookie for breaks.</p>
+  <span class="price">₹120</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<!-- BREAKFAST -->
+<div class="menu-item" data-category="breakfast">
+  <img src="assets/American-breakfast.webp">
+  <h3>Campus Breakfast Combo</h3>
+  <p>Eggs, toast & sides.</p>
+  <span class="price">₹340</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="breakfast">
+  <img src="assets/english-breakfast.webp">
+  <h3>Classic English Breakfast</h3>
+  <p>Hearty morning meal.</p>
+  <span class="price">₹360</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<!-- MEALS -->
+<div class="menu-item" data-category="restaurant">
+  <img src="assets/Classic-hamburger.webp">
+  <h3>Campus Beef Burger</h3>
+  <p>Juicy burger with fries.</p>
+  <span class="price">₹420</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="restaurant">
+  <img src="assets/Vegetable-pizza.webp">
+  <h3>Cheesy Veg Pizza</h3>
+  <p>Loaded with vegetables.</p>
+  <span class="price">₹420</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+<div class="menu-item" data-category="restaurant">
+  <img src="assets/Chicken-Alfredo.webp">
+  <h3>Chicken Alfredo Pasta</h3>
+  <p>Creamy pasta meal.</p>
+  <span class="price">₹520</span>
+  <button class="add-to-cart-btn">+</button>
+</div>
+
+</div>
+</section>
+</main>
+
+<footer id="contact">
+  <h2>Campus Café</h2>
+  <p>Student friendly café near campus</p>
+  <p>© 2025 Campus Café | Academic Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
